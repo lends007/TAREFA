@@ -1,0 +1,13 @@
+{
+  "name": "fantasma-da-luz-gdevelop-tools",
+  "private": true,
+  "description": "Gera as imagens e o game.json do projeto GDevelop do Fantasma da Luz.",
+  "type": "module",
+  "scripts": {
+    "sprites": "node render-sprites.mjs",
+    "build": "node build-project.mjs"
+  },
+  "devDependencies": {
+    "gdcore-tools": "2.0.0-gd-v5.6.269-autobuild"
+  }
+}
